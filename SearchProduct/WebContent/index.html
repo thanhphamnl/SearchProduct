@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<title>User Input Form</title>
+</head>
+
+<body>
+	<h2>Product Search Form</h2>
+	<form method="get" action="searchproduct">
+		<fieldset>
+			<legend>Please enter product id number to search:</legend>
+			<br />	
+			Name: <input type="text" name="product_id" maxlength="4"/> 
+			<p style= font-size:14px;color:red; >* Only number is allowed to enter!</p>
+			
+			<br />			
+		</fieldset>
+		<br />	
+		<input type="hidden" name="secret" value="888" /> <input
+			type="submit" value="SEND" /> <input type="reset" value="CLEAR" />
+	</form>
+</body>
+</html>
